@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Grocery Store - Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background: #28a745;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background: #218838;
+            padding: 15px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .products {
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #fff;
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .price {
+            font-weight: bold;
+            color: #28a745;
+        }
+        footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Products</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="categories.html"><i class="fas fa-list"></i> Categories</a></li>
+        <li><a href="products.html"><i class="fas fa-shopping-cart"></i> Products</a></li>
+        <li><a href="reviews.html"><i class="fas fa-star"></i> Reviews</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+    </ul>
+</nav>
+
+<div class="products">
+    <div class="product">
+        <img src="images/apple.png" alt="Fresh Apples">
+        <h3><i class="fas fa-apple-alt"></i> Fresh Apples</h3>
+        <p>Organic apples from local farms.</p>
+        <p class="price">₹280 per kg</p>
+    </div>
+    <div class="product">
+        <img src="images/carrot.jpg" alt="Carrots">
+        <h3><i class="fas fa-carrot"></i> Carrots</h3>
+        <p>Fresh and crunchy carrots.</p>
+        <p class="price">₹80 per kg</p>
+    </div>
+    <div class="product">
+        <img src="images/milks.jpg" alt="Milk">
+        <h3><i class="fas fa-glass-whiskey"></i> Milk</h3>
+        <p>Fresh dairy milk from local farms.</p>
+        <p class="price">₹40 per litre</p>
+    </div>
+    <div class="product">
+        <img src="images/bananas.jpg" alt="Bananas">
+        <h3><i class="fas fa-banana"></i> Bananas</h3>
+        <p>Fresh, sweet bananas.</p>
+        <p class="price">₹50 each</p>
+    </div>
+    <div class="product">
+        <img src="images/brocoli.jpg" alt="Broccoli">
+        <h3><i class="fas fa-broccoli"></i> Broccoli</h3>
+        <p>Organic green broccoli.</p>
+        <p class="price">₹150 per kg</p>
+    </div>
+    <div class="product">
+        <img src="images/yogurt.png" alt="Yogurt">
+        <h3><i class="fas fa-glass-whiskey"></i> Yogurt</h3>
+        <p>Delicious and creamy yogurt.</p>
+        <p class="price">₹30 each</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Online Grocery Store. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
